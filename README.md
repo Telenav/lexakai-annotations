@@ -7,7 +7,7 @@ This project contains annotations for use in code to be processed by Lexakai.
 ### Index
 
 [**Summary**](#summary)  
-[**Annotation Summary**](#annotation-summary)  
+[**Annotations**](#annotations)  
 [**Dependencies**](#dependencies)  
 [**Class Diagrams**](#class-diagrams)  
 [**Package Diagrams**](#package-diagrams)  
@@ -23,7 +23,7 @@ This module provides annotations for creating custom UML diagrams directly from 
 For details, run Lexakai with no command line arguments to see the Lexakai command line help,  
 or view the [Lexakai markdown documentation](https://github.com/Telenav/lexakai).
 
-### Annotation Summary&nbsp; ![](documentation/images/annotation-32.png)
+### Annotations&nbsp;&nbsp; ![](documentation/images/tag-32.png)
 
     Diagrams:
 
