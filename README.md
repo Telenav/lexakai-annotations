@@ -6,12 +6,24 @@ This project contains annotations for use in code to be processed by Lexakai.
 
 ### Index
 
+[**Dependencies**](#dependencies)  
 [**Summary**](#summary)  
 [**Annotations**](#annotations)  
-[**Dependencies**](#dependencies)  
 [**Class Diagrams**](#class-diagrams)  
 [**Package Diagrams**](#package-diagrams)  
 [**Javadoc**](#javadoc)
+
+### Dependencies &nbsp;&nbsp; ![](documentation/images/dependencies-40.png)
+
+[*Dependency Diagram*](documentation/diagrams/dependencies.svg)
+
+#### Maven Dependency  
+
+    <dependency>
+        <groupId>com.telenav.lexakai</groupId>
+        <artifactId>lexakai-annotations</artifactId>
+        <version>0.9.2</version>
+    </dependency>
 
 ![](documentation/images/horizontal-line.png)
 
@@ -45,16 +57,6 @@ or view the [Lexakai markdown documentation](https://github.com/Telenav/lexakai)
             @UmlComposition - adds a UML composition association from the enclosing type to the annotated field type
 
 [//]: # (end-user-text)
-
-### Dependencies &nbsp;&nbsp; ![](documentation/images/dependencies-40.png)
-
-[*Dependency Diagram*](documentation/diagrams/dependencies.svg)
-
-    <dependency>
-        <groupId>com.telenav.lexakai</groupId>
-        <artifactId>lexakai-annotations</artifactId>
-        <version>0.9.2</version>
-    </dependency>
 
 ### Class Diagrams &nbsp; &nbsp;![](documentation/images/diagram-48.png)
 
