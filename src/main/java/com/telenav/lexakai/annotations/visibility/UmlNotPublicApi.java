@@ -24,7 +24,8 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Marks the given class, interface, field or method as not being public API.
+ * Marks the annotated class, interface, field or method as not being public API. This will be notated in the diagram by
+ * showing the annotated entity as *private* even though it is not actually private.
  *
  * @author jonathanl (shibo)
  */

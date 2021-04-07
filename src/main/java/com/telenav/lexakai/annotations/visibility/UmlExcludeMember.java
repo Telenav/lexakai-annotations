@@ -18,15 +18,19 @@
 
 package com.telenav.lexakai.annotations.visibility;
 
+import com.telenav.lexakai.annotations.associations.UmlRelation;
+
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Excludes field, method or constructor from UML diagrams.
+ * Excludes the annotated field, method or constructor from all UML diagrams. To include members only in specific
+ * fields, methods or types, use {@link UmlRelation}.
  *
  * @author jonathanl (shibo)
+ * @see UmlRelation
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ ElementType.FIELD, ElementType.METHOD, ElementType.CONSTRUCTOR })

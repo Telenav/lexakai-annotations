@@ -29,9 +29,47 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Indicates that the annotated type should be included in a diagram with the given name
+ * Indicates that the annotated type should be included in a UML diagram. For full details, see
+ * <a href="https://telenav.github.io/lexakai/">Lexakai documentation</a>.
+ *
+ * <p><b>Diagram Name</b></p>
+ *
+ * <p>
+ * The name of the diagram is derived form the class returned by {@link #diagram()} by taking the class name and
+ * converting it to lowercase hyphenated form. For example, MyDiagram would have the diagram name "my-diagram".
+ * </p>
+ *
+ * <p><b>Automatic Method Groups</b></p>
+ *
+ * <p>
+ * Method groups can be automatically determined based on heuristic patterns. The {@link #automaticMethodGroups()}
+ * value, which is true by default, determines if methods should be automatically grouped.
+ * </p>
+ *
+ * <p><b>Inclusion and Exclusion</b></p>
+ *
+ * <p>
+ * Super types and members can be included or excluded with:
+ * </p>
+ *
+ * <ul>
+ *     <li>{@link #excludeAllSuperTypes()} - All super types will be omitted from the diagram</li>
+ *     <li>{@link #excludeSuperTypes()} - The specified super types will be omitted from the diagram</li>
+ *     <li>{@link #includeMembers()} - All fields and methods are excluded if this value is false</li>
+ *     <li>{@link #includeOverrides()} - Overridden methods are excluded if this value is false</li>
+ *     <li>{@link #includeProtectedMethods()} - Protected methods are included if this value is true</li>
+ * </ul>
+ *
+ * <p><b>Explicit Relations</b></p>
+ *
+ * <p>
+ * UML relations can be explicitly defined with @{@link UmlRelation} annotation(s) provided by {@link #relations()}.
+ * Relations are explicit when defined in this way, otherwise they may be inferred from member types.
+ * </p>
  *
  * @author jonathanl (shibo)
+ * @see <a href="https://telenav.github.io/lexakai/">Lexakai documentation</a>
+ * @see UmlRelation
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ ElementType.TYPE })

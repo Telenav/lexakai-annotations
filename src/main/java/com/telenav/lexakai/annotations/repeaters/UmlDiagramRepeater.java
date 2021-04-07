@@ -26,7 +26,11 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Indicates that the annotated type should be included in a diagram with the given name
+ * <b>Not public API</b>
+ *
+ * <p>
+ * This annotation is used to allow the {@link UmlClassDiagram} annotation to be repeated.
+ * </p>
  *
  * @author jonathanl (shibo)
  */

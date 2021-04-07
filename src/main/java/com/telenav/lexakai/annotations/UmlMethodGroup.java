@@ -27,7 +27,8 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Adds the annotated method to the named method group
+ * Adds the annotated method to the named method group. Method groups are delineated and labeled with the text provided
+ * by {@link #value()} in the method list of the UML display for the containing type.
  *
  * @author jonathanl (shibo)
  */
@@ -36,5 +37,8 @@ import java.lang.annotation.Target;
 @Target({ ElementType.METHOD })
 public @interface UmlMethodGroup
 {
+    /**
+     * @return The name of this method group
+     */
     String value() default "";
 }

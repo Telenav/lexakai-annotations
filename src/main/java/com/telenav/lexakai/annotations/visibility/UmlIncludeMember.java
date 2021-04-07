@@ -24,7 +24,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Includes the given field, method or constructor even if it is excluded for some other reason
+ * Forces inclusion of the annotated field, method or constructor even if it is excluded for some other reason.
  *
  * @author jonathanl (shibo)
  */

@@ -18,8 +18,13 @@
 
 package com.telenav.lexakai.annotations.diagrams;
 
+import com.telenav.lexakai.annotations.UmlClassDiagram;
+
 /**
+ * This interface is used to identify types that should appear in all UML diagrams.
+ *
  * @author jonathanl (shibo)
+ * @see UmlClassDiagram
  */
 public interface AllDiagrams extends UmlDiagramIdentifier
 {

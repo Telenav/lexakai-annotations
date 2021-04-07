@@ -24,7 +24,9 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Marks the given class, interface, field or method as not being public API.
+ * Adds a callout note to the annotated class, interface or method. The text for the note is provided with {@link
+ * #text()} and may include simple HTML tags per the PlantUML specification. The {@link #align()} method provides any
+ * alignment for the callout. By default, notes are right-aligned.
  *
  * @author jonathanl (shibo)
  */
@@ -32,6 +34,11 @@ import java.lang.annotation.Target;
 @Target({ ElementType.TYPE, ElementType.METHOD })
 public @interface UmlNote
 {
+    /**
+     * Specifies alignment of this UML note. Alignment refers to the note's placement relative to the type or method.
+     *
+     * @author jonathanl (shibo)
+     */
     enum Align
     {
         TOP,

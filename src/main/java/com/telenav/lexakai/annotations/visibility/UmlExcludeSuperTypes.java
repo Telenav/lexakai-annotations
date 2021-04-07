@@ -18,13 +18,16 @@
 
 package com.telenav.lexakai.annotations.visibility;
 
+import com.telenav.lexakai.annotations.UmlClassDiagram;
+
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Excludes a superclass type from UML diagrams.
+ * Excludes one or more superclass types of the annotated type from all UML diagrams. To exclude a superclass from
+ * specific diagram(s), use {@link UmlClassDiagram#excludeSuperTypes()}.
  *
  * @author jonathanl (shibo)
  */

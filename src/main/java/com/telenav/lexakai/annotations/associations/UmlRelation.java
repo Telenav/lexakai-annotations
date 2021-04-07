@@ -29,7 +29,14 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
+ * This annotation is used to indicate that the annotated type, field or method has a relation with the type specified
+ * by {@link #referent()}. The relation can be labeled by providing a value for {@link #label()}. The cardinality of the
+ * referee (the annotated type or enclosing type) may be specified with {@link #refereeCardinality()} and the
+ * cardinality of the referent can be specified with {@link #referentCardinality()}. The relation is displayed in all
+ * UML diagrams, unless a diagram is specified with {@link #diagram()}.
+ *
  * @author jonathanl (shibo)
+ * @see <a href="https://telenav.github.io/lexakai/">Lexakai documentation</a>
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Repeatable(UmlRelationRepeater.class)
