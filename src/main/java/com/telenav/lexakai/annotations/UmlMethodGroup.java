@@ -31,6 +31,7 @@ import java.lang.annotation.Target;
  * by {@link #value()} in the method list of the UML display for the containing type.
  *
  * @author jonathanl (shibo)
+ * @see <a href="https://telenav.github.io/lexakai/">Lexakai documentation</a>
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Repeatable(UmlMethodGroupRepeater.class)

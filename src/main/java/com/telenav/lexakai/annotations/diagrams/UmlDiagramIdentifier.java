@@ -40,6 +40,7 @@ import com.telenav.lexakai.annotations.UmlClassDiagram;
  * </pre>
  *
  * @author jonathanl (shibo)
+ * @see <a href="https://telenav.github.io/lexakai/">Lexakai documentation</a>
  */
 public interface UmlDiagramIdentifier
 {

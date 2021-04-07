@@ -30,6 +30,7 @@ import java.lang.annotation.Target;
  * specific diagram(s), use {@link UmlClassDiagram#excludeSuperTypes()}.
  *
  * @author jonathanl (shibo)
+ * @see <a href="https://telenav.github.io/lexakai/">Lexakai documentation</a>
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ ElementType.TYPE })

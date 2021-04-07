@@ -30,6 +30,7 @@ import java.lang.annotation.Target;
  * fields, methods or types, use {@link UmlRelation}.
  *
  * @author jonathanl (shibo)
+ * @see <a href="https://telenav.github.io/lexakai/">Lexakai documentation</a>
  * @see UmlRelation
  */
 @Retention(RetentionPolicy.RUNTIME)

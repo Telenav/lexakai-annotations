@@ -28,6 +28,7 @@ import java.lang.annotation.Target;
  * showing the annotated entity as *private* even though it is not actually private.
  *
  * @author jonathanl (shibo)
+ * @see <a href="https://telenav.github.io/lexakai/">Lexakai documentation</a>
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ ElementType.TYPE, ElementType.FIELD, ElementType.METHOD })

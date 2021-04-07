@@ -25,6 +25,7 @@ import com.telenav.lexakai.annotations.UmlClassDiagram;
  *
  * @author jonathanl (shibo)
  * @see UmlClassDiagram
+ * @see <a href="https://telenav.github.io/lexakai/">Lexakai documentation</a>
  */
 public interface AllDiagrams extends UmlDiagramIdentifier
 {

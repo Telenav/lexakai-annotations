@@ -27,6 +27,7 @@ import java.lang.annotation.Target;
  * Forces inclusion of the annotated field, method or constructor even if it is excluded for some other reason.
  *
  * @author jonathanl (shibo)
+ * @see <a href="https://telenav.github.io/lexakai/">Lexakai documentation</a>
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ ElementType.FIELD, ElementType.METHOD, ElementType.CONSTRUCTOR })

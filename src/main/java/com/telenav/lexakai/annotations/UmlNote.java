@@ -29,6 +29,7 @@ import java.lang.annotation.Target;
  * alignment for the callout. By default, notes are right-aligned.
  *
  * @author jonathanl (shibo)
+ * @see <a href="https://telenav.github.io/lexakai/">Lexakai documentation</a>
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ ElementType.TYPE, ElementType.METHOD })
