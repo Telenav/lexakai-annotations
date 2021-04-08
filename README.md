@@ -72,6 +72,10 @@ None
 
 ### Javadoc &nbsp;&nbsp;![](documentation/images/books-40.png)
 
+Javadoc coverage for this project is 100.0%.
+
+
+
 | Class | Documentation Sections |
 |---|---|
 | [*AllDiagrams*](https://telenav.github.io/lexakai-annotations/javadoc/lexakai.annotations/com/telenav/lexakai/annotations/diagrams/AllDiagrams.html) |  |  
