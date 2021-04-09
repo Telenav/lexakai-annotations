@@ -12,6 +12,8 @@
         TOP
     }
     
+    annotation LexakaiJavadoc
+    
     annotation UmlClassDiagram
     
     annotation UmlMethodGroup
