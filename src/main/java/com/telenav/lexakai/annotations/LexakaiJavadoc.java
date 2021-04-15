@@ -24,14 +24,14 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Indicates that the Javadoc for a given class or interface should be considered complete in terms of Javadoc coverage
- * analysis, even if it doesn't meet the heuristic criteria for completeness.
+ * Indicates that the Javadoc for a given class, interface, enum or method should be considered complete in terms of
+ * Javadoc coverage analysis, even if it doesn't meet the heuristic criteria for completeness.
  *
  * @author jonathanl (shibo)
  * @see <a href="https://telenav.github.io/lexakai/">Lexakai documentation</a>
  */
 @Retention(RetentionPolicy.RUNTIME)
-@Target({ ElementType.TYPE })
+@Target({ ElementType.TYPE, ElementType.METHOD })
 public @interface LexakaiJavadoc
 {
     boolean complete();
