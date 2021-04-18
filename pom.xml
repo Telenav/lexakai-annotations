@@ -13,7 +13,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.telenav.lexakai</groupId>
     <artifactId>lexakai-annotations</artifactId>
-    <version>0.9.3</version>
+    <version>0.9.4</version>
     <packaging>jar</packaging>
 
     <!-- Metadata -->
@@ -120,7 +120,7 @@
         <dependency>
             <groupId>com.telenav.kivakit</groupId>
             <artifactId>kivakit-build-metadata</artifactId>
-            <version>0.9.3</version>
+            <version>0.9.4</version>
         </dependency>
 
     </dependencies>
@@ -220,8 +220,7 @@
                     <detectJavaApiLink>false</detectJavaApiLink>
                     <doclint>none</doclint>
                     <nohelp>true</nohelp>
-                    <reportOutputDirectory>docs</reportOutputDirectory>
-                    <destDir>javadoc</destDir>
+                    <reportOutputDirectory>${env.LEXAKAI_DATA_HOME}/docs/javadoc/lexakai-annotations</reportOutputDirectory>
                     <additionalOptions>--show-module-contents all --show-packages all --show-types private</additionalOptions>
                 </configuration>
                 <executions>

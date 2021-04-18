@@ -20,6 +20,8 @@ This module provides annotations for creating custom UML diagrams directly from 
 For details, run Lexakai with no command line arguments to see the Lexakai command line help,
 or view the [Lexakai markdown documentation](https://github.com/Telenav/lexakai).
 
+![](https://www.lexakai.org/images/short-horizontal-line.png)
+
 ### Annotations <a name = "annotations"></a>&nbsp;&nbsp; ![](https://www.kivakit.org/images/tag-32.png)
 
     Diagrams:
