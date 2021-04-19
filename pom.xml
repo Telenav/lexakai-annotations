@@ -208,33 +208,6 @@
                 </configuration>
             </plugin>
 
-            <!-- Javadoc -->
-
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-javadoc-plugin</artifactId>
-                <version>${maven-javadoc-plugin.version}</version>
-                <configuration>
-                    <show>public</show>
-                    <source>12</source>
-                    <detectJavaApiLink>false</detectJavaApiLink>
-                    <doclint>none</doclint>
-                    <nohelp>true</nohelp>
-                    <reportOutputDirectory>${env.LEXAKAI_DATA_HOME}/docs/javadoc</reportOutputDirectory>
-                    <destDir>lexakai-annotations</destDir>
-                    <additionalOptions>--show-module-contents all --show-packages all --show-types private</additionalOptions>
-                </configuration>
-                <executions>
-                    <execution>
-                        <id>aggregate</id>
-                        <phase>site</phase>
-                        <goals>
-                            <goal>aggregate</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-
             <!-- Create project.properties and build.properties files -->
 
             <plugin>
@@ -284,6 +257,34 @@
                     </dependency>
                 </dependencies>
             </plugin>
+
+            <!-- Javadoc -->
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>${maven-javadoc-plugin.version}</version>
+                <configuration>
+                    <show>public</show>
+                    <source>12</source>
+                    <detectJavaApiLink>false</detectJavaApiLink>
+                    <doclint>none</doclint>
+                    <nohelp>true</nohelp>
+                    <reportOutputDirectory>${env.LEXAKAI_DATA_HOME}/docs/javadoc</reportOutputDirectory>
+                    <destDir>lexakai-annotations</destDir>
+                    <additionalOptions>-notimestamp --show-module-contents all --show-packages all --show-types private</additionalOptions>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>aggregate</id>
+                        <phase>site</phase>
+                        <goals>
+                            <goal>aggregate</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
 
         </plugins>
 
