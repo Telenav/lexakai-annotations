@@ -1,8 +1,8 @@
-# Lexakai - Annotations &nbsp;&nbsp;![](https://www.kivakit.org/images/annotation-40.png)
+# Lexakai - Annotations &nbsp;&nbsp; <img src="https://www.lexakai.org/images/annotation-40.png" srcset="https://www.lexakai.org/images/annotation-40-2x.png 2x"></img>
 
 This project contains annotations for use in code to be processed by Lexakai.
 
-![](https://www.lexakai.org/images/horizontal-line.png)
+<img src="https://www.kivakit.org/images/horizontal-line-512.png" srcset="https://www.kivakit.org/images/horizontal-line-512@2x.png 2x"/>
 
 ### Index
 
@@ -11,9 +11,9 @@ This project contains annotations for use in code to be processed by Lexakai.
 
 [**Dependencies**](#dependencies) | [**Class Diagrams**](#class-diagrams) | [**Package Diagrams**](#package-diagrams) | [**Javadoc**](#javadoc)
 
-![](https://www.lexakai.org/images/horizontal-line.png)
+<img src="https://www.kivakit.org/images/horizontal-line-512.png" srcset="https://www.kivakit.org/images/horizontal-line-512@2x.png 2x"/>
 
-### Dependencies <a name="dependencies"></a> &nbsp;&nbsp; ![](https://www.lexakai.org/images/dependencies-40.png)
+### Dependencies <a name="dependencies"></a> &nbsp;&nbsp; <img src="https://www.lexakai.org/images/dependencies-32.png" srcset="https://www.lexakai.org/images/dependencies-32-2x.png 2x"></img>
 
 [*Dependency Diagram*](https://www.lexakai.org/lexakai/lexakai-annotations/documentation/diagrams/dependencies.svg)
 
@@ -25,7 +25,8 @@ This project contains annotations for use in code to be processed by Lexakai.
         <version>0.9.4</version>
     </dependency>
 
-![](https://www.lexakai.org/images/short-horizontal-line.png)
+
+<img src="https://www.kivakit.org/images/short-horizontal-line-128.png" srcset="https://www.kivakit.org/images/short-horizontal-line-128@2x.png 2x"/>
 
 [//]: # (start-user-text)
 
@@ -35,9 +36,9 @@ This module provides annotations for creating custom UML diagrams directly from 
 For details, run Lexakai with no command line arguments to see the Lexakai command line help,
 or view the [Lexakai markdown documentation](https://github.com/Telenav/lexakai).
 
-![](https://www.lexakai.org/images/short-horizontal-line.png)
+<img src="https://www.lexakai.org/images/short-horizontal-line-128.png" srcset="https://www.lexakai.org/images/horizontal-line-128-2x.png 2x"></img>
 
-### Annotations <a name = "annotations"></a>&nbsp;&nbsp; ![](https://www.kivakit.org/images/tag-32.png)
+### Annotations <a name = "annotations"></a>&nbsp;&nbsp; <img src="https://www.kivakit.org/images/tag-32.png" srcset="https://www.kivakit.org/images/tag-32-2x.png 2x"></img>
 
     Diagrams:
 
@@ -60,15 +61,15 @@ or view the [Lexakai markdown documentation](https://github.com/Telenav/lexakai)
 
 [//]: # (end-user-text)
 
-![](https://www.lexakai.org/images/short-horizontal-line.png)
+<img src="https://www.kivakit.org/images/short-horizontal-line-128.png" srcset="https://www.kivakit.org/images/short-horizontal-line-128@2x.png 2x"/>
 
-### Class Diagrams <a name="class-diagrams"></a> &nbsp; &nbsp; ![](https://www.lexakai.org/images/diagram-48.png)
+### Class Diagrams <a name="class-diagrams"></a> &nbsp; &nbsp; <img src="https://www.lexakai.org/images/diagram-32.png" srcset="https://www.lexakai.org/images/diagram-32-2x.png 2x"></img>
 
 None
 
-![](https://www.lexakai.org/images/short-horizontal-line.png)
+<img src="https://www.kivakit.org/images/short-horizontal-line-128.png" srcset="https://www.kivakit.org/images/short-horizontal-line-128@2x.png 2x"/>
 
-### Package Diagrams <a name="package-diagrams"></a> &nbsp;&nbsp; ![](https://www.lexakai.org/images/box-40.png)
+### Package Diagrams <a name="package-diagrams"></a> &nbsp;&nbsp; <img src="https://www.lexakai.org/images/box-32.png" srcset="https://www.lexakai.org/images/box-32-2x.png 2x"></img>
 
 [*com.telenav.lexakai.annotations*](https://www.lexakai.org/lexakai/lexakai-annotations/documentation/diagrams/com.telenav.lexakai.annotations.svg)  
 [*com.telenav.lexakai.annotations.associations*](https://www.lexakai.org/lexakai/lexakai-annotations/documentation/diagrams/com.telenav.lexakai.annotations.associations.svg)  
@@ -76,9 +77,9 @@ None
 [*com.telenav.lexakai.annotations.repeaters*](https://www.lexakai.org/lexakai/lexakai-annotations/documentation/diagrams/com.telenav.lexakai.annotations.repeaters.svg)  
 [*com.telenav.lexakai.annotations.visibility*](https://www.lexakai.org/lexakai/lexakai-annotations/documentation/diagrams/com.telenav.lexakai.annotations.visibility.svg)
 
-![](https://www.lexakai.org/images/short-horizontal-line.png)
+<img src="https://www.kivakit.org/images/short-horizontal-line-128.png" srcset="https://www.kivakit.org/images/short-horizontal-line-128@2x.png 2x"/>
 
-### Javadoc <a name="javadoc"></a> &nbsp;&nbsp; ![](https://www.lexakai.org/images/books-40.png)
+### Javadoc <a name="javadoc"></a> &nbsp;&nbsp; <img src="https://www.lexakai.org/images/books-32.png" srcset="https://www.lexakai.org/images/books-32-2x.png 2x"></img>
 
 Javadoc coverage for this project is 100.0%.  
   
@@ -115,9 +116,7 @@ Javadoc coverage for this project is 100.0%.
 
 [//]: # (end-user-text)
 
-<br/>
-
-![](https://www.lexakai.org/images/horizontal-line.png)
+<img src="https://www.kivakit.org/images/horizontal-line-512.png" srcset="https://www.kivakit.org/images/horizontal-line-512@2x.png 2x"/>
 
 <sub>Copyright &#169; 2011-2021 [Telenav](http://telenav.com), Inc. Distributed under [Apache License, Version 2.0](LICENSE)</sub>  
 <sub>This documentation was generated by [Lexakai](https://github.com/Telenav/lexakai). UML diagrams courtesy
