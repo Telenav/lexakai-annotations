@@ -1,4 +1,3 @@
-
 [//]: # (start-user-text)
 
 <a href="https://www.lexakai.org">
@@ -27,8 +26,7 @@ This project contains annotations for use in code to be processed by Lexakai.
 
 ### Index
 
-[**Summary**](#summary)  
-[**Annotations**](#annotations)  
+[**Summary**](#summary)
 
 [**Dependencies**](#dependencies) | [**Class Diagrams**](#class-diagrams) | [**Package Diagrams**](#package-diagrams) | [**Javadoc**](#javadoc)
 
@@ -53,32 +51,7 @@ This project contains annotations for use in code to be processed by Lexakai.
 
 ### Summary <a name = "summary"></a>
 
-This module provides annotations for creating custom UML diagrams directly from source code.
-For details, run Lexakai with no command line arguments to see the Lexakai command line help,
-or view the [Lexakai markdown documentation](https://github.com/Telenav/lexakai).
-
-<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
-
-### Annotations <a name = "annotations"></a>&nbsp;&nbsp; <img src="https://www.kivakit.org/images/tag-32.png" srcset="https://www.kivakit.org/images/tag-32-2x.png 2x"/>
-
-    Diagrams:
-
-           @UmlClassDiagram - declares the diagram(s) that the annotated type should be included in
-            @UmlMethodGroup - includes the annotated method in a labeled method group in the diagram
-                   @UmlNote - adds a callout note to a type or method
-
-    Visibility:
-
-      @UmlExcludeSuperTypes - excludes the listed supertypes from all diagrams
-          @UmlExcludeMember - excludes the annotated member
-          @UmlIncludeMember - includes the annotated member, even if it wouldn't normally be included
-           @UmlNotPublicApi - marks the annotated type or member as private even if it is not
-
-    Associations:
-
-               @UmlRelation - adds a labeled UML relation from the enclosing type to the annotated member type
-            @UmlAggregation - adds a UML aggregation association from the enclosing type to the annotated field type
-            @UmlComposition - adds a UML composition association from the enclosing type to the annotated field type
+This module contains annotations that are used by Lexakai.
 
 [//]: # (end-user-text)
 
@@ -104,7 +77,7 @@ None
 
 Javadoc coverage for this project is 100.0%.  
   
-&nbsp; &nbsp; <img src="https://www.kivakit.org/images/meter-100-96.png" srcset="https://www.kivakit.org/images/meter-100-96-2x.png 2x"/>
+&nbsp; &nbsp; <img src="https://www.lexakai.org/images/meter-100-96.png" srcset="https://www.lexakai.org/images/meter-100-96-2x.png 2x"/>
 
 
 
