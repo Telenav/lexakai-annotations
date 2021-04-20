@@ -26,7 +26,7 @@ This project contains annotations for use in code to be processed by Lexakai.
 
 ### Index
 
-[**Summary**](#summary)
+[**Summary**](#summary)  
 
 [**Dependencies**](#dependencies) | [**Class Diagrams**](#class-diagrams) | [**Package Diagrams**](#package-diagrams) | [**Javadoc**](#javadoc)
 
