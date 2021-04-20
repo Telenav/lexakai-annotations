@@ -1,3 +1,24 @@
+
+[//]: # (start-user-text)
+
+<a href="https://www.lexakai.org">
+<img src="https://www.lexakai.org/images/web-32.png" srcset="https://www.lexakai.org/images/web-32-2x.png 2x"/>
+</a>
+&nbsp;
+<a href="https://twitter.com/openlexakai">
+<img src="https://www.lexakai.org/images/twitter-32.png" srcset="https://www.lexakai.org/images/twitter-32-2x.png 2x"/>
+</a>
+&nbsp;
+<a href="https://lexakai.zulipchat.com">
+<img src="https://www.lexakai.org/images/zulip-32.png" srcset="https://www.lexakai.org/images/zulip-32-2x.png 2x"/>
+</a>
+
+<p></p>
+
+<img src="https://www.lexakai.org/images/lexakai-backgroung-1024.png" srcset="https://www.lexakai.org/images/lexakai-background-1024-2x.png 2x"/>
+
+[//]: # (end-user-text)
+
 # Lexakai - Annotations &nbsp;&nbsp; <img src="https://www.kivakit.org/images/annotation-32.png" srcset="https://www.kivakit.org/images/annotation-32-2x.png 2x"/>
 
 This project contains annotations for use in code to be processed by Lexakai.
