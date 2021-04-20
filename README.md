@@ -18,7 +18,7 @@
 
 [//]: # (end-user-text)
 
-# Lexakai - Annotations &nbsp;&nbsp; <img src="https://www.kivakit.org/images/annotation-32.png" srcset="https://www.kivakit.org/images/annotation-32-2x.png 2x"/>
+# Lexakai - Annotations &nbsp;&nbsp; <img src="https://www.lexakai.org/images/annotation-32.png" srcset="https://www.lexakai.org/images/annotation-32-2x.png 2x"/>
 
 This project contains annotations for use in code to be processed by Lexakai.
 
