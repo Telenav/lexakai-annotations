@@ -32,7 +32,7 @@ import com.telenav.lexakai.annotations.UmlClassDiagram;
  *
  * [...]
  *
- * @UmlClassDiagram(diagram = DiagramMyApplication.class)
+ * \@UmlClassDiagram(diagram = DiagramMyApplication.class)
  * public class MyApplication
  * {
  *     [...]
