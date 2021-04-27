@@ -41,7 +41,7 @@ This project contains annotations for use in code to be processed by Lexakai.
     <dependency>
         <groupId>com.telenav.lexakai</groupId>
         <artifactId>lexakai-annotations</artifactId>
-        <version>0.9.4</version>
+        <version>0.9.5-alpha-SNAPSHOT</version>
     </dependency>
 
 
