@@ -287,25 +287,39 @@
                                 <property name = "project.artifactId" value = "${project.artifactId}"/>
                                 <property name = "project.version" value = "${project.version}"/>
                                 <property name = "project.name" value = "${project.name}"/>
-                                <property name = "project.basedir" value = "${project.basedir}"/>
                                 <condition property = "source.exists">
                                     <available file = "src" type = "dir"/>
                                 </condition>
                                 <taskdef resource = "net/sf/antcontrib/antcontrib.properties" classpathref = "maven.plugin.classpath"/>
                                 <if>
-                                    <!--suppress MavenModelInspection -->
+                                    <equals arg1 = "${maven.multiModuleProjectDirectory}" arg2 = "${project.basedir}"/>
+                                    <then>
+                                        <mkdir dir="${kivakit.downloads.folder}"/>
+                                        <get src="${cactus.build.url}" dest="${cactus.build.jar}"/>
+                                    </then>
+                                </if>
+                                <if>
                                     <equals arg1 = "${source.exists}" arg2 = "true"/>
                                     <then>
                                         <echo file = "src/main/java/project.properties">
-                                            project-name=${project.name}${line.separator}project-version=${project.version}${line.separator}project-group-id=${project.groupId}${line.separator}project-artifact-id=${project.artifactId}${line.separator}
+                                            project-name = ${project.name}${line.separator}project-version = ${project.version}${line.separator}project-group-id = ${project.groupId}${line.separator}project-artifact-id = ${project.artifactId}
                                         </echo>
-                                        <!--suppress MavenModelInspection -->
-                                        <java jar = "${maven.multiModuleProjectDirectory}/tools/building/cactus-build-metadata-${cactus.version}.jar"
+                                        <java jar = "${cactus.build.jar}"
                                               failonerror = "true"
                                               fork = "true">
                                             <arg value = "src/main/java"/>
                                         </java>
                                     </then>
+                                    <else>
+                                        <echo file = "${project.basedir}/project.properties">
+                                            project-name = ${project.name}${line.separator}project-version = ${project.version}${line.separator}project-group-id = ${project.groupId}${line.separator}project-artifact-id = ${project.artifactId}
+                                        </echo>
+                                        <java jar = "${cactus.build.jar}"
+                                              failonerror = "true"
+                                              fork = "true">
+                                            <arg value = "${project.basedir}"/>
+                                        </java>
+                                    </else>
                                 </if>
                             </target>
                         </configuration>
