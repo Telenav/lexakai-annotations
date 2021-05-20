@@ -11,28 +11,36 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.telenav.lexakai</groupId>
     <artifactId>lexakai-annotations</artifactId>
-    <version>0.9.5-alpha-SNAPSHOT</version>
+    <version>0.9.6-alpha</version>
     <packaging>jar</packaging>
+
+    <!-- Project -->
 
     <name>Lexakai - Annotations</name>
     <description>Lexakai annotations are used by Lexakai to generate UML diagrams.</description>
     <url>http://www.lexakai.org</url>
     <inceptionYear>2021</inceptionYear>
-
     <organization>
         <name>Telenav</name>
         <url>https://www.telenav.com</url>
     </organization>
 
+    <!-- Licensing -->
+
     <licenses>
+
         <license>
             <name>Apache License, Version 2.0</name>
             <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
             <distribution>repo</distribution>
         </license>
+
     </licenses>
 
+    <!-- Contributors -->
+
     <developers>
+
         <developer>
             <id>jonathanl</id>
             <name>Jonathan Locke (Luo Shibo)</name>
@@ -44,8 +52,9 @@
                 <role>administrator</role>
             </roles>
         </developer>
+
         <developer>
-            <id>hfzhu</id>
+            <id>haifeng</id>
             <name>Haifeng Zhu</name>
             <email>hfzhu@telenav.com</email>
             <organization>Telenav</organization>
@@ -55,18 +64,29 @@
                 <role>administrator</role>
             </roles>
         </developer>
+
     </developers>
 
+    <!-- Source Code -->
+
     <scm>
+
         <connection>scm:git:https://Telenav/lexakai-build.git</connection>
         <developerConnection>scm:git:https://Telenav/lexakai-build.git</developerConnection>
         <url>https://Telenav/lexakai-build.git</url>
+
     </scm>
 
+    <!-- Issue Tracking -->
+
     <issueManagement>
+
         <system>GitHub</system>
         <url>https://github.com/Telenav/lexakai/issues</url>
+
     </issueManagement>
+
+    <!-- Publishing -->
 
     <distributionManagement>
 
@@ -81,6 +101,8 @@
         </repository>
 
     </distributionManagement>
+
+    <!-- Snapshots -->
 
     <repositories>
 
@@ -101,20 +123,20 @@
 
     <properties>
 
-        <!-- Cactus Build Version -->
+        <!-- Lexakai -->
 
-        <cactus.version>0.9.5-alpha-SNAPSHOT</cactus.version>
-
-        <!-- KivaKit Version -->
-
-        <kivakit.version>0.9.5-alpha-SNAPSHOT</kivakit.version>
-        <kivakit.downloads.folder>${user.home}/.kivakit/${kivakit.version}/temporary/tools/downloads/</kivakit.downloads.folder>
+        <lexakai.version>${project.version}</lexakai.version>
+        <lexakai.downloads.folder>${user.home}/.lexakai/downloads</lexakai.downloads.folder>
 
         <!-- Cactus Build -->
 
+        <cactus.version>0.9.5-alpha-SNAPSHOT</cactus.version>
         <cactus.build.url>https://s01.oss.sonatype.org/service/local/repositories/snapshots/content/com/telenav/cactus/cactus-build-metadata/0.9.5-alpha-SNAPSHOT/cactus-build-metadata-0.9.5-alpha-20210518.164351-1.jar</cactus.build.url>
-        <!--suppress UnresolvedMavenProperty -->
-        <cactus.build.jar>${kivakit.downloads.folder}/cactus-build-metadata.jar</cactus.build.jar>
+        <cactus.build.jar>${lexakai.downloads.folder}/cactus-build-metadata.jar</cactus.build.jar>
+
+        <!-- KivaKit Version -->
+
+        <kivakit.version>0.9.6-alpha</kivakit.version>
 
         <!-- Java -->
 
@@ -124,7 +146,6 @@
         <!-- Maven -->
 
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
-        <maven-compiler-plugin-java.version>12</maven-compiler-plugin-java.version>
         <maven-resources-plugin.version>2.7</maven-resources-plugin.version>
         <maven-shade-plugin.version>3.2.4</maven-shade-plugin.version>
         <maven-jar-plugin.version>2.4</maven-jar-plugin.version>
@@ -153,6 +174,8 @@
         </dependency>
 
     </dependencies>
+
+    <!-- Profiles -->
 
     <profiles>
 
@@ -278,7 +301,7 @@
 
         <plugins>
 
-            <!-- Create project.properties and build.properties files -->
+            <!-- Build Metadata -->
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -301,8 +324,8 @@
                                 <if>
                                     <equals arg1 = "${maven.multiModuleProjectDirectory}" arg2 = "${project.basedir}"/>
                                     <then>
-                                        <mkdir dir="${kivakit.downloads.folder}"/>
-                                        <get src="${cactus.build.url}" dest="${cactus.build.jar}"/>
+                                        <mkdir dir = "${lexakai.downloads.folder}"/>
+                                        <get src = "${cactus.build.url}" dest = "${cactus.build.jar}"/>
                                     </then>
                                 </if>
                                 <if>
@@ -311,23 +334,17 @@
                                         <echo file = "src/main/java/project.properties">
                                             project-name = ${project.name}${line.separator}project-version = ${project.version}${line.separator}project-group-id = ${project.groupId}${line.separator}project-artifact-id = ${project.artifactId}
                                         </echo>
-                                        <java jar = "${cactus.build.jar}"
-                                              failonerror = "true"
-                                              fork = "true">
+                                        <java jar = "${cactus.build.jar}" failonerror = "true" fork = "true">
                                             <arg value = "src/main/java"/>
                                         </java>
                                     </then>
-                                    <else>
-                                        <echo file = "${project.basedir}/project.properties">
-                                            project-name = ${project.name}${line.separator}project-version = ${project.version}${line.separator}project-group-id = ${project.groupId}${line.separator}project-artifact-id = ${project.artifactId}
-                                        </echo>
-                                        <java jar = "${cactus.build.jar}"
-                                              failonerror = "true"
-                                              fork = "true">
-                                            <arg value = "${project.basedir}"/>
-                                        </java>
-                                    </else>
                                 </if>
+                                <echo file = "${project.basedir}/project.properties">
+                                    project-name = ${project.name}${line.separator}project-version = ${project.version}${line.separator}project-group-id = ${project.groupId}${line.separator}project-artifact-id = ${project.artifactId}
+                                </echo>
+                                <java jar = "${cactus.build.jar}" failonerror = "true" fork = "true">
+                                    <arg value = "${project.basedir}"/>
+                                </java>
                             </target>
                         </configuration>
                         <goals>
@@ -344,15 +361,15 @@
                 </dependencies>
             </plugin>
 
-            <!-- Compiler -->
+            <!-- Compiling -->
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>${maven-compiler-plugin.version}</version>
                 <configuration>
-                    <source>${maven-compiler-plugin-java.version}</source>
-                    <target>${maven-compiler-plugin-java.version}</target>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
                     <release>${java.version}</release>
                     <compilerArgs>
                         <compilerArgument>-Xlint:unchecked</compilerArgument>
@@ -361,7 +378,7 @@
                 </configuration>
             </plugin>
 
-            <!-- Maven Build -->
+            <!-- Building -->
 
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
@@ -386,7 +403,7 @@
                 </configuration>
             </plugin>
 
-            <!-- Javadoc -->
+            <!-- Documentation -->
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
