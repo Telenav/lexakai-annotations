@@ -18,7 +18,7 @@
 
 [//]: # (end-user-text)
 
-# lexakai annotations 0.9.6-alpha &nbsp;&nbsp; <img src="https://www.lexakai.org/images/annotation-32.png" srcset="https://www.lexakai.org/images/annotation-32-2x.png 2x"/>
+# lexakai annotations 0.9.7-alpha &nbsp;&nbsp; <img src="https://www.lexakai.org/images/annotation-32.png" srcset="https://www.lexakai.org/images/annotation-32-2x.png 2x"/>
 
 This project contains annotations for use in code to be processed by Lexakai.
 
@@ -41,7 +41,7 @@ This project contains annotations for use in code to be processed by Lexakai.
     <dependency>
         <groupId>com.telenav.lexakai</groupId>
         <artifactId>lexakai-annotations</artifactId>
-        <version>0.9.6-alpha</version>
+        <version>0.9.7-alpha</version>
     </dependency>
 
 <img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
