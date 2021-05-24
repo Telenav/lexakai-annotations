@@ -83,26 +83,26 @@ Javadoc coverage for this project is 100.0%.
 
 | Class | Documentation Sections |
 |---|---|
-| [*AllDiagrams*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/diagrams/AllDiagrams.html) |  |  
-| [*LexakaiJavadoc*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/LexakaiJavadoc.html) |  |  
-| [*UmlAggregation*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/associations/UmlAggregation.html) |  |  
-| [*UmlClassDiagram*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/UmlClassDiagram.html) | Inclusion and Exclusion |  
+| [*AllDiagrams*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/com/telenav/lexakai/annotations/diagrams/AllDiagrams.html) |  |  
+| [*LexakaiJavadoc*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/com/telenav/lexakai/annotations/LexakaiJavadoc.html) |  |  
+| [*UmlAggregation*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/com/telenav/lexakai/annotations/associations/UmlAggregation.html) |  |  
+| [*UmlClassDiagram*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/com/telenav/lexakai/annotations/UmlClassDiagram.html) | Inclusion and Exclusion |  
 | | Automatic Method Groups |  
 | | Explicit Relations |  
 | | Diagram Name |  
-| [*UmlComposition*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/associations/UmlComposition.html) |  |  
-| [*UmlDiagramIdentifier*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/diagrams/UmlDiagramIdentifier.html) |  |  
-| [*UmlDiagramRepeater*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/repeaters/UmlDiagramRepeater.html) |  |  
-| [*UmlExcludeMember*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/visibility/UmlExcludeMember.html) |  |  
-| [*UmlExcludeSuperTypes*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/visibility/UmlExcludeSuperTypes.html) |  |  
-| [*UmlIncludeMember*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/visibility/UmlIncludeMember.html) |  |  
-| [*UmlMethodGroup*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/UmlMethodGroup.html) |  |  
-| [*UmlMethodGroupRepeater*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/repeaters/UmlMethodGroupRepeater.html) |  |  
-| [*UmlNotPublicApi*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/visibility/UmlNotPublicApi.html) |  |  
-| [*UmlNote*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/UmlNote.html) |  |  
-| [*UmlNote.Align*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/UmlNote.Align.html) |  |  
-| [*UmlRelation*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/associations/UmlRelation.html) |  |  
-| [*UmlRelationRepeater*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/repeaters/UmlRelationRepeater.html) |  |  
+| [*UmlComposition*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/com/telenav/lexakai/annotations/associations/UmlComposition.html) |  |  
+| [*UmlDiagramIdentifier*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/com/telenav/lexakai/annotations/diagrams/UmlDiagramIdentifier.html) |  |  
+| [*UmlDiagramRepeater*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/com/telenav/lexakai/annotations/repeaters/UmlDiagramRepeater.html) |  |  
+| [*UmlExcludeMember*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/com/telenav/lexakai/annotations/visibility/UmlExcludeMember.html) |  |  
+| [*UmlExcludeSuperTypes*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/com/telenav/lexakai/annotations/visibility/UmlExcludeSuperTypes.html) |  |  
+| [*UmlIncludeMember*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/com/telenav/lexakai/annotations/visibility/UmlIncludeMember.html) |  |  
+| [*UmlMethodGroup*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/com/telenav/lexakai/annotations/UmlMethodGroup.html) |  |  
+| [*UmlMethodGroupRepeater*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/com/telenav/lexakai/annotations/repeaters/UmlMethodGroupRepeater.html) |  |  
+| [*UmlNotPublicApi*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/com/telenav/lexakai/annotations/visibility/UmlNotPublicApi.html) |  |  
+| [*UmlNote*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/com/telenav/lexakai/annotations/UmlNote.html) |  |  
+| [*UmlNote.Align*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/com/telenav/lexakai/annotations/UmlNote.Align.html) |  |  
+| [*UmlRelation*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/com/telenav/lexakai/annotations/associations/UmlRelation.html) |  |  
+| [*UmlRelationRepeater*](https://www.lexakai.org/0.9.8-alpha-SNAPSHOT/javadoc/lexakai-annotations/com/telenav/lexakai/annotations/repeaters/UmlRelationRepeater.html) |  |  
 
 [//]: # (start-user-text)
 
