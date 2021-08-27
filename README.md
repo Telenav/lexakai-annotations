@@ -18,7 +18,7 @@
 
 [//]: # (end-user-text)
 
-# lexakai annotations 0.9.9-SNAPSHOT &nbsp;&nbsp; <img src="https://www.lexakai.org/images/annotation-32.png" srcset="https://www.lexakai.org/images/annotation-32-2x.png 2x"/>
+# lexakai annotations 1.0.0 &nbsp;&nbsp; <img src="https://www.lexakai.org/images/annotation-32.png" srcset="https://www.lexakai.org/images/annotation-32-2x.png 2x"/>
 
 This project contains annotations for use in code to be processed by Lexakai.
 
@@ -34,14 +34,14 @@ This project contains annotations for use in code to be processed by Lexakai.
 
 ### Dependencies <a name="dependencies"></a> &nbsp;&nbsp; <img src="https://www.kivakit.org/images/dependencies-32.png" srcset="https://www.kivakit.org/images/dependencies-32-2x.png 2x"/>
 
-[*Dependency Diagram*](https://www.lexakai.org/0.9.9-SNAPSHOT/lexakai/lexakai-annotations/documentation/diagrams/dependencies.svg)
+[*Dependency Diagram*](https://www.lexakai.org/1.0.0/lexakai/lexakai-annotations/documentation/diagrams/dependencies.svg)
 
 #### Maven Dependency
 
     <dependency>
         <groupId>com.telenav.lexakai</groupId>
         <artifactId>lexakai-annotations</artifactId>
-        <version>0.9.9-SNAPSHOT</version>
+        <version>1.0.0</version>
     </dependency>
 
 <img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
@@ -64,11 +64,11 @@ None
 
 ### Package Diagrams <a name="package-diagrams"></a> &nbsp;&nbsp; <img src="https://www.kivakit.org/images/box-32.png" srcset="https://www.kivakit.org/images/box-32-2x.png 2x"/>
 
-[*com.telenav.lexakai.annotations*](https://www.lexakai.org/0.9.9-SNAPSHOT/lexakai/lexakai-annotations/documentation/diagrams/com.telenav.lexakai.annotations.svg)  
-[*com.telenav.lexakai.annotations.associations*](https://www.lexakai.org/0.9.9-SNAPSHOT/lexakai/lexakai-annotations/documentation/diagrams/com.telenav.lexakai.annotations.associations.svg)  
-[*com.telenav.lexakai.annotations.diagrams*](https://www.lexakai.org/0.9.9-SNAPSHOT/lexakai/lexakai-annotations/documentation/diagrams/com.telenav.lexakai.annotations.diagrams.svg)  
-[*com.telenav.lexakai.annotations.repeaters*](https://www.lexakai.org/0.9.9-SNAPSHOT/lexakai/lexakai-annotations/documentation/diagrams/com.telenav.lexakai.annotations.repeaters.svg)  
-[*com.telenav.lexakai.annotations.visibility*](https://www.lexakai.org/0.9.9-SNAPSHOT/lexakai/lexakai-annotations/documentation/diagrams/com.telenav.lexakai.annotations.visibility.svg)
+[*com.telenav.lexakai.annotations*](https://www.lexakai.org/1.0.0/lexakai/lexakai-annotations/documentation/diagrams/com.telenav.lexakai.annotations.svg)  
+[*com.telenav.lexakai.annotations.associations*](https://www.lexakai.org/1.0.0/lexakai/lexakai-annotations/documentation/diagrams/com.telenav.lexakai.annotations.associations.svg)  
+[*com.telenav.lexakai.annotations.diagrams*](https://www.lexakai.org/1.0.0/lexakai/lexakai-annotations/documentation/diagrams/com.telenav.lexakai.annotations.diagrams.svg)  
+[*com.telenav.lexakai.annotations.repeaters*](https://www.lexakai.org/1.0.0/lexakai/lexakai-annotations/documentation/diagrams/com.telenav.lexakai.annotations.repeaters.svg)  
+[*com.telenav.lexakai.annotations.visibility*](https://www.lexakai.org/1.0.0/lexakai/lexakai-annotations/documentation/diagrams/com.telenav.lexakai.annotations.visibility.svg)
 
 <img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
@@ -83,26 +83,28 @@ Javadoc coverage for this project is 100.0%.
 
 | Class | Documentation Sections |
 |---|---|
-| [*AllDiagrams*](https://www.lexakai.org/0.9.9-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/diagrams/AllDiagrams.html) |  |  
-| [*LexakaiJavadoc*](https://www.lexakai.org/0.9.9-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/LexakaiJavadoc.html) |  |  
-| [*UmlAggregation*](https://www.lexakai.org/0.9.9-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/associations/UmlAggregation.html) |  |  
-| [*UmlClassDiagram*](https://www.lexakai.org/0.9.9-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/UmlClassDiagram.html) | Inclusion and Exclusion |  
+| [*AllDiagrams*](https://www.lexakai.org/1.0.0/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/diagrams/AllDiagrams.html) |  |  
+| [*LexakaiJavadoc*](https://www.lexakai.org/1.0.0/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/LexakaiJavadoc.html) |  |  
+| [*UmlAggregation*](https://www.lexakai.org/1.0.0/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/associations/UmlAggregation.html) |  |  
+| [*UmlClassDiagram*](https://www.lexakai.org/1.0.0/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/UmlClassDiagram.html) | Inclusion and Exclusion |  
 | | Automatic Method Groups |  
 | | Explicit Relations |  
 | | Diagram Name |  
-| [*UmlComposition*](https://www.lexakai.org/0.9.9-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/associations/UmlComposition.html) |  |  
-| [*UmlDiagramIdentifier*](https://www.lexakai.org/0.9.9-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/diagrams/UmlDiagramIdentifier.html) |  |  
-| [*UmlDiagramRepeater*](https://www.lexakai.org/0.9.9-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/repeaters/UmlDiagramRepeater.html) |  |  
-| [*UmlExcludeMember*](https://www.lexakai.org/0.9.9-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/visibility/UmlExcludeMember.html) |  |  
-| [*UmlExcludeSuperTypes*](https://www.lexakai.org/0.9.9-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/visibility/UmlExcludeSuperTypes.html) |  |  
-| [*UmlIncludeMember*](https://www.lexakai.org/0.9.9-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/visibility/UmlIncludeMember.html) |  |  
-| [*UmlMethodGroup*](https://www.lexakai.org/0.9.9-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/UmlMethodGroup.html) |  |  
-| [*UmlMethodGroupRepeater*](https://www.lexakai.org/0.9.9-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/repeaters/UmlMethodGroupRepeater.html) |  |  
-| [*UmlNotPublicApi*](https://www.lexakai.org/0.9.9-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/visibility/UmlNotPublicApi.html) |  |  
-| [*UmlNote*](https://www.lexakai.org/0.9.9-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/UmlNote.html) |  |  
-| [*UmlNote.Align*](https://www.lexakai.org/0.9.9-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/UmlNote.Align.html) |  |  
-| [*UmlRelation*](https://www.lexakai.org/0.9.9-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/associations/UmlRelation.html) |  |  
-| [*UmlRelationRepeater*](https://www.lexakai.org/0.9.9-SNAPSHOT/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/repeaters/UmlRelationRepeater.html) |  |  
+| [*UmlComposition*](https://www.lexakai.org/1.0.0/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/associations/UmlComposition.html) |  |  
+| [*UmlDiagramIdentifier*](https://www.lexakai.org/1.0.0/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/diagrams/UmlDiagramIdentifier.html) |  |  
+| [*UmlDiagramRepeater*](https://www.lexakai.org/1.0.0/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/repeaters/UmlDiagramRepeater.html) |  |  
+| [*UmlExcludeMember*](https://www.lexakai.org/1.0.0/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/visibility/UmlExcludeMember.html) |  |  
+| [*UmlExcludeSuperTypes*](https://www.lexakai.org/1.0.0/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/visibility/UmlExcludeSuperTypes.html) |  |  
+| [*UmlExcludeType*](https://www.lexakai.org/1.0.0/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/visibility/UmlExcludeType.html) |  |  
+| [*UmlExcludeTypeRepeater*](https://www.lexakai.org/1.0.0/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/repeaters/UmlExcludeTypeRepeater.html) |  |  
+| [*UmlIncludeMember*](https://www.lexakai.org/1.0.0/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/visibility/UmlIncludeMember.html) |  |  
+| [*UmlMethodGroup*](https://www.lexakai.org/1.0.0/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/UmlMethodGroup.html) |  |  
+| [*UmlMethodGroupRepeater*](https://www.lexakai.org/1.0.0/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/repeaters/UmlMethodGroupRepeater.html) |  |  
+| [*UmlNotPublicApi*](https://www.lexakai.org/1.0.0/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/visibility/UmlNotPublicApi.html) |  |  
+| [*UmlNote*](https://www.lexakai.org/1.0.0/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/UmlNote.html) |  |  
+| [*UmlNote.Align*](https://www.lexakai.org/1.0.0/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/UmlNote.Align.html) |  |  
+| [*UmlRelation*](https://www.lexakai.org/1.0.0/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/associations/UmlRelation.html) |  |  
+| [*UmlRelationRepeater*](https://www.lexakai.org/1.0.0/javadoc/lexakai-annotations/lexakai.annotations/com/telenav/lexakai/annotations/repeaters/UmlRelationRepeater.html) |  |  
 
 [//]: # (start-user-text)
 
