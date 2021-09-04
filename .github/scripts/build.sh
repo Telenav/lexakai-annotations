@@ -21,7 +21,7 @@ CLONE="git clone --branch "$BRANCH" --quiet"
 # Install superpom
 #
 
-echo "Cloning kivakit in $ROOT"
+echo "Cloning kivakit"
 cd "$ROOT"
 $CLONE https://github.com/Telenav/kivakit.git
 
@@ -33,7 +33,7 @@ $SUPERPOM_BUILD
 # Build lexakai-annotations
 #
 
-echo "Cloning lexakai-annotations in $ROOT"
+echo "Cloning lexakai-annotations"
 cd "$ROOT"
 $CLONE https://github.com/Telenav/lexakai-annotations.git
 
