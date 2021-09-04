@@ -12,6 +12,7 @@
         <groupId>com.telenav.kivakit</groupId>
         <artifactId>superpom</artifactId>
         <version>1.0.0</version>
+        <relativePath>../kivakit/superpom</relativePath>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -91,5 +92,5 @@
         <url>https://github.com/Telenav/lexakai/issues</url>
 
     </issueManagement>
-    
+
 </project>
