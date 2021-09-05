@@ -29,6 +29,7 @@ require "./cactus-build/.github/scripts/build-include.pl";
 my ($build_type) = @ARGV;
 my $github = "https://github.com/Telenav";
 
+clone("$github/kivakit", "dependency");
 clone("$github/lexakai-annotations", "build");
 
 build_lexakai_annotations($build_type);
