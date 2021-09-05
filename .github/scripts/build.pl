@@ -36,6 +36,7 @@ say("Building $branch ($build_type)");
 
 my $github = "https://github.com/Telenav";
 
+clone("$github/kivakit", $branch);
 clone("$github/lexakai-annotations", $branch);
 
 #
