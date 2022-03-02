@@ -22,8 +22,8 @@ import com.telenav.lexakai.annotations.UmlClassDiagram;
 
 /**
  * This interface is used as a base interface for diagram identifiers used by {@link UmlClassDiagram#diagram()}. Diagram
- * identifiers are normally placed in a package called *project.lexakai.diagrams* so they are easy to find and they
- * should start with the word "Diagram". For example:
+ * identifiers are normally placed in a package called *project.lexakai* so they are easy to find, and they should start
+ * with the word "Diagram". For example:
  *
  * <pre>
  * public class DiagramMyApplication implements UmlDiagramIdentifier
