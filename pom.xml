@@ -13,6 +13,7 @@
     <parent>
         <groupId>com.telenav.kivakit</groupId>
         <artifactId>superpom</artifactId>
+        <relativePath>../kivakit/superpom</relativePath>
         <version>1.4.1</version>
     </parent>
 
