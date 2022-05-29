@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-<!--  -->
-<!-- © 2011-2021 Telenav, Inc. -->
-<!-- Licensed under Apache License, Version 2.0 -->
-<!--  -->
-<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-<project
-         xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+<!--
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// © 2011-2022 Telenav, Inc.
+// Licensed under Apache License, Version 2.0
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
 
-    <properties>
-        <maven.compiler.source>16</maven.compiler.source>
-        <maven.compiler.target>16</maven.compiler.target>
-    </properties>
+<project xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+         xmlns = "http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation = "http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
 
     <parent>
         <groupId>com.telenav</groupId>
         <artifactId>telenav-superpom</artifactId>
         <version>1.5.1-SNAPSHOT</version>
-        <relativePath/>
     </parent>
+
     <groupId>com.telenav.lexakai</groupId>
     <artifactId>lexakai-annotations</artifactId>
     <version>1.0.0</version>
+
     <!-- Project -->
+
     <description>Lexakai annotations are used by Lexakai to generate UML diagrams.</description>
     <url>https://www.lexakai.org</url>
     <inceptionYear>2021</inceptionYear>
@@ -34,6 +34,7 @@
         <name>Telenav</name>
         <url>https://www.telenav.com</url>
     </organization>
+
     <!-- Licensing -->
 
     <licenses>
@@ -43,6 +44,7 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
+
     <!-- Contributors -->
 
     <developers>
@@ -50,7 +52,6 @@
             <id>jonathanl</id>
             <name>Jonathan Locke (Luo Shibo)</name>
             <email>jonathanl@telenav.com</email>
-
             <organization>Telenav</organization>
             <organizationUrl>https://www.telenav.com/</organizationUrl>
             <roles>
@@ -62,7 +63,6 @@
             <id>haifeng</id>
             <name>Haifeng Zhu</name>
             <email>hfzhu@telenav.com</email>
-
             <organization>Telenav</organization>
             <organizationUrl>https://www.telenav.com/</organizationUrl>
             <roles>
@@ -71,6 +71,7 @@
             </roles>
         </developer>
     </developers>
+
     <!-- Source Code -->
 
     <scm>
@@ -78,9 +79,12 @@
         <developerConnection>scm:git:https://Telenav/lexakai-build.git</developerConnection>
         <url>https://Telenav/lexakai-build.git</url>
     </scm>
+
     <!-- Issue Tracking -->
+
     <issueManagement>
         <system>GitHub</system>
         <url>https://github.com/Telenav/lexakai/issues</url>
     </issueManagement>
+
 </project>
