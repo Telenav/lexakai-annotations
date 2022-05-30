@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//
-// © 2011-2022 Telenav, Inc.
-// Licensed under Apache License, Version 2.0
-//
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
--->
+ /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ //
+ // © 2011-2022 Telenav, Inc.
+ // Licensed under Apache License, Version 2.0
+ //
+ /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ -->
 <project
-     xmlns="http://maven.apache.org/POM/4.0.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    
     <modelVersion>4.0.0</modelVersion>
-
+    
     <parent>
         <groupId>com.telenav</groupId>
         <artifactId>telenav-superpom</artifactId>
         <version>1.5.1-SNAPSHOT</version>
         <relativePath/>
     </parent>
-
+    
     <groupId>com.telenav.lexakai</groupId>
     <artifactId>lexakai-annotations</artifactId>
-    <version>1.0.0</version>
-
+    <version>1.0.1</version>
+    
     <!-- Project -->
-
+    
     <description>
         Lexakai annotations are used by Lexakai to generate UML diagrams.
     </description>
-
+    
     <!-- Licensing -->
-
+    
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
@@ -40,37 +40,37 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-
+    
     <!-- Source Code -->
-
+    
     <scm>
         <connection>scm:git:https://Telenav/lexakai-build.git</connection>
         <developerConnection>scm:git:https://Telenav/lexakai-build.git</developerConnection>
         <url>https://Telenav/lexakai-build.git</url>
     </scm>
-
+    
     <url>https://www.lexakai.org</url>
-
+    
     <!-- Issue Tracking -->
-
+    
     <issueManagement>
         <system>GitHub</system>
         <url>https://github.com/Telenav/lexakai/issues</url>
     </issueManagement>
-
+    
     <inceptionYear>2021</inceptionYear>
-
+    
     <organization>
         <name>Telenav</name>
         <url>https://www.telenav.com</url>
     </organization>
-
+    
     <!-- Contributors -->
-
+    
     <developers>
-
+        
         <developer>
-
+            
             <id>jonathanl</id>
             <name>Jonathan Locke (Luo Shibo)</name>
             <email>jonathanl@telenav.com</email>
@@ -80,11 +80,11 @@
                 <role>lead</role>
                 <role>administrator</role>
             </roles>
-
+            
         </developer>
-
+        
         <developer>
-
+            
             <id>haifeng</id>
             <name>Haifeng Zhu</name>
             <email>hfzhu@telenav.com</email>
@@ -94,9 +94,9 @@
                 <role>developer</role>
                 <role>administrator</role>
             </roles>
-
+            
         </developer>
-
+        
     </developers>
-
+    
 </project>

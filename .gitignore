@@ -17,3 +17,8 @@
 **/nb-configuration.xml
 **/Err.log
 **/Err.log.*
+nb-configuration.xml
+nbactions.xml
+*.orig
+*~
+
