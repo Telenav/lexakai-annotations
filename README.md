@@ -1,7 +1,7 @@
 [//]: # (start-user-text)
 
 <a href="https://www.lexakai.org">
-<img src="https://www.lexakai.org/images/web-32.png" srcset="https://www.lexakai.org/images/web-32-2x.png 2x"/>
+<img src="https://www.lexakai.org/images/logos/web-32.png" srcset="https://www.lexakai.org/images/logos/web-32-2x.png 2x"/>
 </a>
 &nbsp;
 <a href="https://twitter.com/openlexakai">
@@ -76,7 +76,7 @@ None
 
 Javadoc coverage for this project is 100.0%.  
   
-&nbsp; &nbsp; <img src="https://telenav.github.io/telenav-assets/meter-100-96.png" srcset="https://telenav.github.io/telenav-assets/meter-100-96-2x.png 2x"/>
+&nbsp; &nbsp; <img src="https://telenav.github.io/telenav-assets/images/meter/meter-100-96.png" srcset="https://telenav.github.io/telenav-assets/images/meter/meter-100-96-2x.png 2x"/>
 
 
 
