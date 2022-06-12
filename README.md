@@ -1,20 +1,20 @@
 [//]: # (start-user-text)
 
 <a href="https://www.lexakai.org">
-<img src="https://www.lexakai.org/images/logos/web-32.png" srcset="https://www.lexakai.org/images/logos/web-32-2x.png 2x"/>
+<img src="https://telenav.github.io/telenav-assets/images/icons/web-32.png" srcset="https://telenav.github.io/telenav-assets/images/icons/web-32-2x.png 2x"/>
 </a>
 &nbsp;
 <a href="https://twitter.com/openlexakai">
-<img src="https://www.lexakai.org/images/twitter-32.png" srcset="https://www.lexakai.org/images/twitter-32-2x.png 2x"/>
+<img src="https://telenav.github.io/telenav-assets/logos/twitter/twitter-32.png" srcset="https://telenav.github.io/telenav-assets/images/logos/twitter/twitter-32-2x.png 2x"/>
 </a>
 &nbsp;
 <a href="https://lexakai.zulipchat.com">
-<img src="https://www.lexakai.org/images/zulip-32.png" srcset="https://www.lexakai.org/images/zulip-32-2x.png 2x"/>
+<img src="https://telenav.github.io/telenav-assets/images/zulip-32.png" srcset="https://telenav.github.io/telenav-assets/images/logos/zulip/zulip-32-2x.png 2x"/>
 </a>
 
 <p></p>
 
-<img src="https://www.lexakai.org/images/lexakai-background-1024.png" srcset="https://www.lexakai.org/images/lexakai-background-1024-2x.png 2x"/>
+<img src="https://telenav.github.io/telenav-assets/images/lexakai-background-1024.png" srcset="https://telenav.github.io/telenav-assets/images/backgrounds/lexakai-background-1024-2x.png 2x"/>
 
 [//]: # (end-user-text)
 
