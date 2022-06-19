@@ -18,7 +18,7 @@
 
 [//]: # (end-user-text)
 
-# lexakai annotations 1.0.1 &nbsp;&nbsp; <img src="https://telenav.github.io/telenav-assets/images/icons//annotation-32.png" srcset="https://telenav.github.io/telenav-assets/images/icons//annotation-32-2x.png 2x"/>
+# lexakai annotations 1.0.1 &nbsp;&nbsp; <img src="https://telenav.github.io/telenav-assets/images/icons/annotation-32.png" srcset="https://telenav.github.io/telenav-assets/images/icons/annotation-32-2x.png 2x"/>
 
 This project contains annotations for use in code to be processed by Lexakai.
 
