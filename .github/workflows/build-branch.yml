@@ -14,7 +14,7 @@ defaults:
     shell: bash
 
 env:
-    CACTUS_VERSION: 1.5.18
+    CACTUS_VERSION: 1.5.22
 
 name: "Build Branch"
 
@@ -42,4 +42,3 @@ on:
 jobs:
   build:
     uses: Telenav/telenav-github/.github/workflows/build-branch.yml@main
-
