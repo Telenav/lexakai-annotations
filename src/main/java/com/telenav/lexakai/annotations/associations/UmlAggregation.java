@@ -35,6 +35,7 @@ import java.lang.annotation.Target;
  * @author jonathanl (shibo)
  * @see <a href="https://telenav.github.io/lexakai/">Lexakai documentation</a>
  */
+@SuppressWarnings("unused")
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ ElementType.FIELD })
 public @interface UmlAggregation
