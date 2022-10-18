@@ -35,33 +35,34 @@ import java.lang.annotation.Target;
  * @author jonathanl (shibo)
  * @see <a href="https://telenav.github.io/lexakai/">Lexakai documentation</a>
  */
+@SuppressWarnings("unused")
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ ElementType.FIELD })
 public @interface UmlAggregation
 {
     /**
-     * @return Any diagram that this annotation is specific to, or all diagrams if omitted
+     * Returns any diagram that this annotation is specific to, or all diagrams if omitted
      */
     Class<? extends UmlDiagramIdentifier> diagram() default AllDiagrams.class;
 
     /**
-     * @return The association label
+     * Returns the association label
      */
     String label() default "";
 
     /**
-     * @return The cardinality of the "from" end of the relation
+     * Returns the cardinality of the "from" end of the relation
      */
     String refereeCardinality() default "";
 
     /**
-     * @return An optional explicit type to refer to, if one cannot be deduced from element this annotation is applied
+     * Returns an optional explicit type to refer to, if one cannot be deduced from element this annotation is applied
      * to. For fields and methods, this value is generally not necessary as the member type will be used.
      */
     Class<?> referent() default Void.class;
 
     /**
-     * @return The cardinality of the "to" end of the relation
+     * Returns the cardinality of the "to" end of the relation
      */
     String referentCardinality() default "";
 }
