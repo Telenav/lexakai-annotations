@@ -13,17 +13,21 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     
     <modelVersion>4.0.0</modelVersion>
+
+    <!-- This project needs nothing that is in any more complex superpom,
+         and parenting on telenav-superpom-lexakai is an effective circularity
+         because it defines lexakai-annotations.version -->
     
     <parent>
-        <groupId>com.telenav.lexakai</groupId>
-        <artifactId>telenav-superpom-lexakai</artifactId>
-        <version>2.0.10</version>
+        <groupId>com.telenav</groupId>
+        <artifactId>telenav-root-superpom</artifactId>
+        <version>1.0.4</version>
         <relativePath/>
     </parent>
     
-    <groupId>com.telenav.lexakai</groupId>
+    <groupId>com.telenav.lexakai.annotations</groupId>
     <artifactId>lexakai-annotations</artifactId>
-    <version>1.0.6</version>
+    <version>1.0.10</version>
     
     <!-- Project -->
     

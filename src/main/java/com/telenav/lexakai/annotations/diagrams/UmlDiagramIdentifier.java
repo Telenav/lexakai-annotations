@@ -26,7 +26,10 @@ import com.telenav.lexakai.annotations.UmlClassDiagram;
  * with the word "Diagram". For example:
  *
  * <pre>
- * public class DiagramMyApplication implements UmlDiagramIdentifier
+ * @ApiQuality(stability = API_STABLE,
+            testing = TESTING_NOT_NEEDED,
+            documentation = DOCUMENTATION_COMPLETE)
+public interface DiagramMyApplication extends UmlDiagramIdentifier
  * {
  * }
  *

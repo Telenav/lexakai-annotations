@@ -31,7 +31,7 @@ import java.lang.annotation.Target;
  * @see <a href="https://telenav.github.io/lexakai/">Lexakai documentation</a>
  */
 @Retention(RetentionPolicy.RUNTIME)
-@Target({ ElementType.TYPE, ElementType.METHOD })
+@Target({ ElementType.TYPE })
 public @interface LexakaiJavadoc
 {
     boolean complete();

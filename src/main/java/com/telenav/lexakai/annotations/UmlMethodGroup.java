@@ -39,7 +39,7 @@ import java.lang.annotation.Target;
 public @interface UmlMethodGroup
 {
     /**
-     * @return The name of this method group
+     * Returns the name of this method group
      */
     String value() default "";
 }

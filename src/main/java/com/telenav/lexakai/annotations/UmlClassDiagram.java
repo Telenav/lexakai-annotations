@@ -77,12 +77,12 @@ import java.lang.annotation.Target;
 public @interface UmlClassDiagram
 {
     /**
-     * @return True if methods should be grouped automatically based on guesses about method names
+     * Returns true if methods should be grouped automatically based on guesses about method names
      */
     boolean automaticMethodGroups() default true;
 
     /**
-     * @return The name of this diagram
+     * Returns the name of this diagram
      */
     Class<? extends UmlDiagramIdentifier> diagram();
 
@@ -92,32 +92,32 @@ public @interface UmlClassDiagram
     String[] documentationSections() default {};
 
     /**
-     * @return Super types to exclude from inheritance in this diagram only
+     * Returns super types to exclude from inheritance in this diagram only
      */
     boolean excludeAllSuperTypes() default false;
 
     /**
-     * @return Super types to exclude from inheritance in this diagram only
+     * Returns super types to exclude from inheritance in this diagram only
      */
     Class<?>[] excludeSuperTypes() default {};
 
     /**
-     * @return True if this type should show no members in this diagram
+     * Returns true if this type should show no members in this diagram
      */
     boolean includeMembers() default true;
 
     /**
-     * @return True if @Override methods from the annotated type should be included
+     * Returns true if @Override methods from the annotated type should be included
      */
     boolean includeOverrides() default false;
 
     /**
-     * @return True if protected methods from the annotated type should be included in this diagram
+     * Returns true if protected methods from the annotated type should be included in this diagram
      */
     boolean includeProtectedMethods() default true;
 
     /**
-     * @return Explicit UML relations for this diagram only
+     * Returns explicit UML relations for this diagram only
      */
     UmlRelation[] relations() default {};
 }
