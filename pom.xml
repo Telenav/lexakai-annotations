@@ -48,9 +48,9 @@
     <!-- Source Code -->
     
     <scm>
-        <connection>scm:git:https://Telenav/lexakai-build.git</connection>
-        <developerConnection>scm:git:https://Telenav/lexakai-build.git</developerConnection>
-        <url>https://Telenav/lexakai-build.git</url>
+        <connection>scm:git:https://github.com/Telenav/lexakai-build.git</connection>
+        <developerConnection>scm:git:https://github.com/Telenav/lexakai-build.git</developerConnection>
+        <url>https://github.com/Telenav/lexakai-build.git</url>
     </scm>
     
     <url>https://www.lexakai.org</url>
