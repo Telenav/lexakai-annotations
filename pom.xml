@@ -14,10 +14,6 @@
     
     <modelVersion>4.0.0</modelVersion>
 
-    <!-- This project needs nothing that is in any more complex superpom,
-         and parenting on telenav-superpom-lexakai is an effective circularity
-         because it defines lexakai-annotations.version -->
-    
     <parent>
         <groupId>com.telenav</groupId>
         <artifactId>telenav-root-superpom</artifactId>
