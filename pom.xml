@@ -14,14 +14,10 @@
     
     <modelVersion>4.0.0</modelVersion>
 
-    <!-- This project needs nothing that is in any more complex superpom,
-         and parenting on telenav-superpom-lexakai is an effective circularity
-         because it defines lexakai-annotations.version -->
-    
     <parent>
         <groupId>com.telenav</groupId>
         <artifactId>telenav-root-superpom</artifactId>
-        <version>1.0.4</version>
+        <version>1.0.7</version>
         <relativePath/>
     </parent>
     
@@ -48,9 +44,9 @@
     <!-- Source Code -->
     
     <scm>
-        <connection>scm:git:https://Telenav/lexakai-build.git</connection>
-        <developerConnection>scm:git:https://Telenav/lexakai-build.git</developerConnection>
-        <url>https://Telenav/lexakai-build.git</url>
+        <connection>scm:git:https://github.com/Telenav/lexakai-build.git</connection>
+        <developerConnection>scm:git:https://github.com/Telenav/lexakai-build.git</developerConnection>
+        <url>https://github.com/Telenav/lexakai-build.git</url>
     </scm>
     
     <url>https://www.lexakai.org</url>
