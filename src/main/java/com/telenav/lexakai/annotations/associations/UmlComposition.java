@@ -27,7 +27,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * This annotation is used to indicate that a field references an composite object (an object that is *dependent* --
+ * This annotation is used to indicate that a field references a composite object (an object that is *dependent* --
  * meaning that it has no second purpose -- on the referring field's class). By default, the composite relation arrow is
  * included in all diagrams without a label. A label can be added with {@link #label()} and the type and cardinality of
  * the referent can be specified with {@link #referent()} and {@link #referentCardinality()}. If omitted, they are not

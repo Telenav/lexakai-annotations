@@ -27,9 +27,9 @@ import com.telenav.lexakai.annotations.UmlClassDiagram;
  *
  * <pre>
  * @ApiQuality(stability = API_STABLE,
-            testing = TESTING_NOT_NEEDED,
-            documentation = DOCUMENTATION_COMPLETE)
-public interface DiagramMyApplication extends UmlDiagramIdentifier
+ *            testing = TESTING_NOT_NEEDED,
+ *            documentation = DOCUMENTATION_COMPLETE)
+ * public interface DiagramMyApplication extends UmlDiagramIdentifier
  * {
  * }
  *
